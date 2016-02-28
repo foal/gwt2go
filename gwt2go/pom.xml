@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.jresearch.commons.gwt.gwt2go</groupId>
+        <artifactId>org.jresearch.commons.gwt.gwt2go.pom</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../pom/pom.xml</relativePath>
+    </parent>
+    <artifactId>org.jresearch.commons.gwt.gwt2go.gwt2go</artifactId>
+    <name>JRESEARCH-COMMONS: GWT gwt2go</name>
+    <dependencies>
+        <!-- GWT -->
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-user</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-dev</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
